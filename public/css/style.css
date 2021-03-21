@@ -1,0 +1,120 @@
+/* public/style.css */
+
+/* Lilac - C2A2CD
+English violet - 574961
+Roman silver - 898698
+Smoky black - 0F0A0B
+Cultured - F8F8FA */
+
+body {
+  background: #F8F8FA;
+  font-family: Helvetica;
+}
+
+
+.info {
+  background: #F8F8FA;
+  width: 100%;
+  position: fixed;
+  min-height: 350px;
+  height: 30vh;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.image-container {
+  padding-top: 20px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.image-cropper {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.Title .text {
+  margin-left: 20px;
+  color: #0F0A0B;
+}
+
+.Title h1 {
+  margin-bottom: 8px;
+}
+
+.Title .handle {
+  margin-top: 4px;
+  color: #574961;
+  font-weight: 600;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+
+.Title .about {
+  padding-top: 28px;
+}
+
+.Title p {
+  margin: 4px;
+  color: #574961;
+}
+
+.Contact {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.Contact a {
+  padding: 0 20px 0 20px;
+}
+
+.Contact .fa {
+  font-size: 28px;
+}
+
+.fa {
+  color: #A97AB8;
+}
+
+.fa:hover {
+  color: #8D569F;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 160px;
+  }
+  .image-cropper {
+      width: 160px;
+      height: 160px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+  }
+  .Title h1 {
+    font-size: 28px;
+  }
+  .Title .about {
+    padding-top: 10px;
+  }
+}
