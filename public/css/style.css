@@ -69,6 +69,17 @@ img {
   padding-bottom: 16px;
 }
 
+.link {
+  margin-top: 4px;
+  color: #8D569F;
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+
+.link:hover {
+  color: #652c78;
+}
+
 .Title .about {
   padding-top: 28px;
 }
@@ -98,6 +109,16 @@ img {
 
 .fa:hover {
   color: #8D569F;
+}
+
+.invitation {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  margin: 0 auto;
+  width: 100%;
+  opacity: 30%;
 }
 
 @media only screen and (max-width: 600px) {
