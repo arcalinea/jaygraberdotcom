@@ -71,13 +71,15 @@ img {
 
 .link {
   margin-top: 4px;
-  color: #8D569F;
+  /* color: #8D569F; */
+  color: #3893ff;
   text-decoration: none;
   padding-bottom: 16px;
 }
 
 .link:hover {
-  color: #652c78;
+  /* color: #652c78; */
+  color: #0a7aff;
 }
 
 .Title .about {
@@ -93,6 +95,9 @@ img {
   margin-top: 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  display: flex; /* Makes sure the flex properties apply to the children (the image and icons) */
+  align-items: center
 }
 
 .Contact a {
@@ -101,14 +106,24 @@ img {
 
 .Contact .fa {
   font-size: 28px;
+  padding: 10px;
 }
 
 .fa {
-  color: #A97AB8;
+  /* color: #A97AB8; */
+  /* color: #0a7aff; */
+  color: #3893ff;
 }
 
 .fa:hover {
-  color: #8D569F;
+  /* color: #8D569F; */
+  color: #0a7aff;
+}
+
+.Contact .resize {
+  height: 23px;
+  width: auto;
+  padding-right: 16px;
 }
 
 .invitation {
